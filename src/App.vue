@@ -257,7 +257,7 @@ export default {
       this.cdOpacity = newCdWidth / this.cdWidth
     },
     pickSong(index) {
-      this.currentSong = index
+      this.currentSong = index 
       this.setSong()
       this.playSong()
     },
@@ -506,6 +506,7 @@ header h2 {
   background-color: #d3d3d3;
   padding: 4px 8px !important;
   border-radius: 10px;
+  display: none
 }
 .volume .vue-slider-dot {
   background-color: var(--primary-color);
